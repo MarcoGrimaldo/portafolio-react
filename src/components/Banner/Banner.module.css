@@ -102,9 +102,11 @@ p {
   h1 {
     font-size: 24px;
   }
+  .animatedTitle {
+    top: 300px
+  }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @keyframes showTopText {
   0% { transform: translate3d(0, 100%, 0); }
   40%, 60% { transform: translate3d(0, 50%, 0); }
@@ -116,14 +118,9 @@ p {
 }
 .animatedTitle {
   color: #222;
-  font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
-  left: 50%;
-  position: absolute;
-  top: 60%; /*CHECK THISS !!! */
+  display: contents;
   transform: translate(-50%, -50%);
-  width: 55vmin;
-  text-align: start;
+  text-align: center;
 }
 .animatedTitle > div {
   overflow: hidden;
@@ -131,13 +128,11 @@ p {
 }
 .animatedTitle > div div {
   font-size: 6vmin;
-  padding: 2vmin 0;
 }
 .animatedTitle > div div span {
   display: block;
 }
 .animatedTitle > div.textTop {
-  border-bottom: 2px solid #a9dcfc75;
   top: 0;
 }
 .animatedTitle > div.textTop div {

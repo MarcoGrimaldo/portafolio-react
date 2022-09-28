@@ -6,8 +6,7 @@ import styles from "./Navbar.module.css";
 const CollapsibleExample = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className={styles.navbar}>
-      <Container>
-        <Navbar.Brand href="#home">Marco Grimaldo</Navbar.Brand>
+      <Container className="justify-content-end">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>

@@ -47,7 +47,7 @@ const Banner = () => {
       <div className={styles.animatedTitle}>
         <div className={styles.textTop}>
           <div>
-            <span>¡Hola!</span>
+            <span>¡Hola! 👋</span>
             <span>Soy Marco Grimaldo</span>
           </div>
         </div>

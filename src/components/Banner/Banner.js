@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Banner.module.css";
 
-const Banner = () => {
+const Banner = ({ greeting, name, textBottom }) => {
   return (
     <div className={styles.bannerContainer}>
       <div className={styles.header}>
@@ -12,7 +12,7 @@ const Banner = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 24 150 28"
             preserveAspectRatio="none"
-            shape-rendering="auto"
+            shapeRendering="auto"
           >
             <defs>
               <path
@@ -47,12 +47,12 @@ const Banner = () => {
       <div className={styles.animatedTitle}>
         <div className={styles.textTop}>
           <div>
-            <span>¡Hola! 👋</span>
-            <span>Soy Marco Grimaldo</span>
+            <span>{greeting}</span>
+            <span>{name}</span>
           </div>
         </div>
         <div className={styles.textBottom}>
-          <div>Front End Developer</div>
+          <div>{textBottom}</div>
         </div>
       </div>
     </div>

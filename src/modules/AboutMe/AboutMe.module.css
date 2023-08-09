@@ -1,0 +1,37 @@
+.container {
+ display: flex;
+ background-color: #1363DF;
+ padding: 20px;
+ color: white;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.section {
+ display: flex;
+ flex-direction: column;
+ margin: 20px;
+ width: 20rem;
+ animation: fade-in 1s ease-in-out both;
+}
+
+.icon path {
+ fill: white;
+}
+
+.subtitle {
+ margin-block: 10px;
+}
+
+.text {
+ text-align: justify;
+}
+
+@keyframes fade-in {
+ 0% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+}

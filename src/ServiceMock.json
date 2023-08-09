@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "aboutMe": {
+      "me": "ajsdfjasd faisdfj asdfj asdfjaksdfj asdfaksjdf jaisd fasd",
+      "devExp": "kasdjfasdf jasdofasdfkasdf aisdjfoiasd fjñlasdf oasdhf fasadjfhaskdjf asdhfkajshdf",
+      "education": "hladjfhaksjdf asjkdfhakfha  sjkadfhkjasdhfkajsd   kjashdfkjasdhf kasjdhf"
+    },
+    "projects": [
+      {
+        "name": "DUCTUM",
+        "description": "Test",
+        "link": "www.google.com"
+      },
+      {
+        "name": "D2B",
+        "description": "Test",
+        "link": "www.google.com"
+      },
+      {
+        "name": "D2B",
+        "description": "Test",
+        "link": "www.google.com"
+      },
+      {
+        "name": "D2B",
+        "description": "Test",
+        "link": "www.google.com"
+      },
+      {
+        "name": "D2B",
+        "description": "Test",
+        "link": "www.google.com"
+      },
+      {
+        "name": "D2B",
+        "description": "Test",
+        "link": "www.google.com"
+      },
+      {
+        "name": "D2B",
+        "description": "Test",
+        "link": "www.google.com"
+      }
+    ],
+    "banner": {
+      "greeting": "¡Hola! 👋",
+      "name": "Soy Marco Grimaldo",
+      "textBottom": "Front End Developer"
+    }
+  }
+}

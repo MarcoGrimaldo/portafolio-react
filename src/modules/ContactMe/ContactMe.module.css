@@ -1,0 +1,28 @@
+.container{
+ text-align: start;
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.formContainer{
+ padding: 20px;
+}
+
+.containerInputs {
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+
+.input {
+ padding: 10px;
+}
+
+.textArea {
+ padding: 10px;
+}
+
+.button {
+ margin: 10px;
+}

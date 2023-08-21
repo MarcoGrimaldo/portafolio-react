@@ -4,6 +4,8 @@ import Banner from "../components/Banner/Banner";
 import Projects from "../modules/Projects/Projects";
 import AboutMe from "../modules/AboutMe/AboutMe";
 import WorkExp from "../modules/WorkExp/WorkExp";
+import ContactMe from "../modules/ContactMe/ContactMe";
+import Footer from "../modules/Footer/Footer";
 
 import mock from "../ServiceMock.json";
 
@@ -27,6 +29,8 @@ const Home = () => {
       />
       <Projects items={projects} />
       <WorkExp />
+      <ContactMe />
+      <Footer />
     </div>
   );
 };

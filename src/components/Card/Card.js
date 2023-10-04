@@ -1,10 +1,10 @@
 import Button from "react-bootstrap/Button";
 import { Card as CardBootstrap } from "react-bootstrap";
 
-const Card = ({ title, text, link }) => {
+const Card = ({ title, text, link, imageLink }) => {
   return (
     <CardBootstrap style={{ width: "13rem", margin: "10px" }}>
-      <CardBootstrap.Img variant="top" src="https://picsum.photos/300/200" />
+      <CardBootstrap.Img variant="top" src={imageLink} />
       <CardBootstrap.Body>
         <CardBootstrap.Title>{title}</CardBootstrap.Title>
         <CardBootstrap.Text>{text}</CardBootstrap.Text>

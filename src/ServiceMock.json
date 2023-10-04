@@ -1,50 +1,81 @@
 {
   "sections": {
     "aboutMe": {
-      "me": "ajsdfjasd faisdfj asdfj asdfjaksdfj asdfaksjdf jaisd fasd",
-      "devExp": "kasdjfasdf jasdofasdfkasdf aisdjfoiasd fjñlasdf oasdhf fasadjfhaskdjf asdhfkajshdf",
-      "education": "hladjfhaksjdf asjkdfhakfha  sjkadfhkjasdhfkajsd   kjashdfkjasdhf kasjdhf"
+      "me": "Hello, I am Marco Antonio Grimaldo Peralta, Systems Engineer. I like web and mobile development because I can exploit my creativity in problem solving.",
+      "devExp": "With Web Development, my love of programming was linked to my creativity, being able to develop interactive and beautiful websites quickly became my passion.",
+      "education": "I studied engineering at ESCOM (Escuela Superior de Cómputo) in Mexico and have completed various courses on the Udemy platform. My specialty is Javascript, React and CSS"
     },
     "projects": [
       {
-        "name": "DUCTUM",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "GRIZA",
+        "description": "Website where I offered services to create web pages",
+        "link": "https://griza-corp.vercel.app/",
+        "image": "https://i.ibb.co/j453rJK/GRIZA.png"
       },
       {
-        "name": "D2B",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "Monitoring System for Tree Frogs",
+        "description": "Final School Project: Monitoring system of an artificial environment to contribute to the study and preservation of tree frogs in danger of extinction implemented in the FES Iztacala | test@test1.com | test12",
+        "link": "https://tt-2.vercel.app/",
+        "image": "https://i.ibb.co/GkndncM/TT2.png"
       },
       {
-        "name": "D2B",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "Calaverita",
+        "description": "Halloween contest, I decided to make a design of pre-Hispanic Mexico animating it with CSS",
+        "link": "https://marcogrimaldo.github.io/calaverita/",
+        "image": "https://i.ibb.co/VQc8fC9/Calaverita.png"
       },
       {
-        "name": "D2B",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "Spotify clone",
+        "description": "Spotify clone developed in a react front end course",
+        "link": "https://spotify-clone-react-ochre.vercel.app/",
+        "image": "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png"
       },
       {
-        "name": "D2B",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "Pokedex",
+        "description": "Implements Pokedex API to get a Pokemon information and download info in PDF",
+        "link": "https://marcogrimaldo.github.io/pokemon-pdf/",
+        "image": "https://i.etsystatic.com/11279093/r/il/d6ac58/1799315681/il_570xN.1799315681_ii1x.jpg"
       },
       {
-        "name": "D2B",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "CIITA Chihuaha",
+        "description": "I implement the base code to create this website",
+        "link": "https://www.ciitachihuahua.ipn.mx/",
+        "image": "https://marcogrimaldo.github.io/portafolio/images/ciita.jpg"
       },
       {
-        "name": "D2B",
-        "description": "Test",
-        "link": "www.google.com"
+        "name": "D2L Ball",
+        "description": "Mobile videogame created on Unity, published on Google Playstore",
+        "link": "https://play.google.com/store/apps/details?id=com.GrimGames.D2LBall&pli=1",
+        "image": "https://i.ibb.co/4JhjYWL/D2BLL.png"
+      },
+      {
+        "name": "Recorre Teotihuacán",
+        "description": "Website for tourist services in Teotichuacán Mexico",
+        "link": "https://marcogrimaldo.github.io/recorre-teoti/#/",
+        "image": "https://marcogrimaldo.github.io/portafolio/images/recorreTeoti.jpg"
+      },
+      {
+        "name": "DUCER",
+        "description": "Mobile App to detect psychological problems in primary school children ",
+        "link": "https://www.youtube.com/watch?v=zUB6hcjwA00&ab_channel=MarcoGrimaldo",
+        "image": "https://marcogrimaldo.github.io/portafolio/images/ducer.png"
+      },
+      {
+        "name": "Old Portafolio",
+        "description": "My first online portafolio :) (Made with HTML, CSS and Javascript)",
+        "link": "https://marcogrimaldo.github.io/portafolio/?#",
+        "image": "https://marcogrimaldo.github.io/portafolio/images/yop.jpeg"
+      },
+      {
+        "name": "Github",
+        "description": "Check the code of this projects on my GitHub! ",
+        "link": "https://github.com/MarcoGrimaldo?tab=repositories",
+        "image": "https://github.githubassets.com/images/modules/open_graph/github-logo.png"
       }
     ],
     "banner": {
-      "greeting": "¡Hola! 👋",
-      "name": "Soy Marco Grimaldo",
+      "greeting": "Hi! 👋",
+      "name": "I'm Marco Grimaldo",
       "textBottom": "Front End Developer"
     }
   }

@@ -18,7 +18,10 @@ const CollapsibleExample = () => {
           className="justify-content-end"
         >
           <Nav>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link
+              eventKey={2}
+              href="https://drive.google.com/file/d/1ahd1HfaaDtEtjujHnFJLLOkVrjI7Loae/view?usp=sharing"
+            >
               My CV Here!
             </Nav.Link>
           </Nav>

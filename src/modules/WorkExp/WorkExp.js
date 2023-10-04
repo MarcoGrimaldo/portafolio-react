@@ -22,92 +22,50 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
-              date="2011 - present"
+              date="2022 - present"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
-                Creative Director
+                Application Developer
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+              <h4 className="vertical-timeline-element-subtitle">PSL Group</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Completely front-end development, coding with React JS and SCSS,
+                component creation and correction of errors related to tracking,
+                style and DOM logic.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2010 - 2011"
+              date="2021 - 2022"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                San Francisco, CA
-              </h4>
+              <h3 className="vertical-timeline-element-title">
+                Software Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">Veyron</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online
-                Marketing
+                Developing specialized software for IFS (ERP) with clients in
+                Mexico, developing with Oracle. Also in Front End with CSS and
+                Javascript.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2008 - 2010"
+              date="2021 - 2022"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Los Angeles, CA
-              </h4>
-              <p>User Experience, Visual Design</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2006 - 2008"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                San Francisco, CA
-              </h4>
-              <p>User Experience, Visual Design</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="April 2013"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            >
               <h3 className="vertical-timeline-element-title">
-                Content Marketing for Web, Mobile and Social Media
+                Front End Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Online Course
+                CIITA Chihuahua
               </h4>
-              <p>Strategy, Social Media</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="November 2012"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Agile Development Scrum Master
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Certification
-              </h4>
-              <p>Creative Direction, User Experience, Visual Design</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="2002 - 2006"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Bachelor of Science in Interactive Digital Media Visual Imaging
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Bachelor Degree
-              </h4>
-              <p>Creative Direction, Visual Design</p>
+              <p>
+                Development of the CIITA Chihuahua website, (center of research
+                of the National Polytechnic Institute), working with React, Git,
+                Javascript, NodeJS and CSS
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

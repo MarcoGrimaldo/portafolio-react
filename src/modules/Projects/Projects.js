@@ -9,7 +9,12 @@ const Projects = ({ items }) => {
       <div className={styles.cardsContainer}>
         {items.map((item) => {
           return (
-            <Card title={item.name} text={item.description} link={item.link} />
+            <Card
+              title={item.name}
+              text={item.description}
+              link={item.link}
+              imageLink={item.image}
+            />
           );
         })}
       </div>
